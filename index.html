@@ -13,10 +13,9 @@
 
 </head>
 
-<body>
-
+<body class="bg-light">
   <!-- Navigation -->
-  <nav class="navbar nav  navbar-light nav-underline fixed-top navbar-expand-lg shadow-sm bg-white fixed-top">
+  <nav class="navbar nav navbar-expand-lg  navbar-light nav-underline fixed-top shadow-sm bg-white fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">ATERN-INTL</a>
       <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
@@ -26,22 +25,23 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
             <a class="nav-link" href="#about">ABOUT ATERN</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
             <a class="nav-link" href="#presence">OUR PRESENCE</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
             <a class="nav-link" href="#quaity">QUALITY ASURANCE</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
             <a class="nav-link" href="#awards">CERTIFICATION & AWARDS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#terms">TERMS & CONDITIONS</a>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
+            <a class="nav-link" data-toggle="modal" data-target=".terms-and-conditions" href="#terms">TERMS &
+              CONDITIONS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
             <a class="nav-link" href="#contact">CONTACT US</a>
           </li>
         </ul>
@@ -65,182 +65,257 @@
 
     </div>
   </header>
-  <!-- Page Content -->
-  <div class="container">
-    <h1 class="my-4">Welcome to Modern Business</h1>
-    <!-- Marketing Icons Section -->
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0">
-
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
-              neque.</p>
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <h3>About Us</h3>
+        <p></p>
+      </div>
+      <div class="row about-container">
+        <div class="col-lg-6 content order-lg-1 order-2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+              soluta nobis est eligendi</p>
           </div>
-
+          <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"
+            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <div class="icon"><i class="fa fa-photo"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum</p>
+          </div>
+          <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"
+            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+            <div class="icon"><i class="fa fa-bar-chart"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat tarad limino ata</p>
+          </div>
+        </div>
+        <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp"
+          style="visibility: visible; animation-name: fadeInUp;">
+          <img src="https://bootstrapmade.com/demo/themes/NewBiz/img/about-img.svg" class="img-fluid" alt="">
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0">
-
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam
-              perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut
-              consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-          </div>
-
+      <div class="row about-extra">
+        <div class="col-lg-6 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+          <img src="https://bootstrapmade.com/demo/themes/NewBiz/img/about-img.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0" style="visibility: visible; animation-name: fadeInUp;">
+          <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+          <p>
+            Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis
+            occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+          </p>
+          <p>
+            Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt
+            veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+          </p>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
-              neque.</p>
-          </div>
+      <div class="row about-extra">
+        <div class="col-lg-6 wow fadeInUp order-1 order-lg-2" style="visibility: visible; animation-name: fadeInUp;">
+          <img src="https://bootstrapmade.com/demo/themes/NewBiz/img/about-img.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1"
+          style="visibility: visible; animation-name: fadeInUp;">
+          <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
+          <p>
+            Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo
+            qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis
+            beatae incidunt sunt.
+          </p>
+          <p>
+            Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias.
+            Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
+          </p>
+          <p>
+            Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia
+            exercitationem nam accusantium provident quia.
+          </p>
+        </div>
 
+      </div>
+
+    </div>
+  </section>
+  <section id="presence">
+    <div class="container">
+      <div class="section-header">
+        <h3>Our Presence</h3>
+        <p></p>
+      </div>
+      <div class="row about-container">
+        <div class="col-lg-6 content order-lg-1 order-2">
+          <p>
+          </p>
+          <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+              soluta nobis est eligendi</p>
+          </div>
+          <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"
+            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <div class="icon"><i class="fa fa-photo"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum</p>
+          </div>
+          <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"
+            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+            <div class="icon"><i class="fa fa-bar-chart"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat tarad limino ata</p>
+          </div>
+        </div>
+        <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp"
+          style="visibility: visible; animation-name: fadeInUp;">
+          <img src="https://bootstrapmade.com/demo/themes/NewBiz/img/about-img.svg" class="img-fluid" alt="">
         </div>
       </div>
     </div>
-    <!-- /.row -->
+  </section>
 
-    <!-- Portfolio Section -->
-    <h2>Portfolio Heading</h2>
+  <div class="modal fade terms-and-conditions" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center  text-uppercase">
+          <h3 class="modal-title  w-100 " id="exampleModalLongTitle">Terms & conditions</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-3">
+          <ul>
+            <li>These terms and conditions (‘The terms’) govern the users (‘you or yours’) use of the Atern
+              INTERNATIONAL.</li>
+            <li>Please the read terms carefully as they affect your rights and liabilities under law.</li>
+            <li>If you do not agree to these terms. Please do not access nor use the Atern INTL.</li>
+            <li>You should understand that by ordering any of our goods and services.</li>
+            <li>You agree to be there terms.</li>
+            <li>You should print a copy of these terms for future reference.</li>
+            <li>Dispatch confirmation. The contract will relate only to those goods or services whose dispatch we have
+              confirming in the dispatch confirmation.</li>
+            <li>We will take all reasonable came, in so far as it is in our power to do so. To keep the details of your
+              order and products secure.</li>
 
-    <div class="row">
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project One</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum
-              quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum
-              tempora ex quae? Nihil, dolorem!</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Two</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
-              gravida pellentesque urna varius vitae.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Three</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
-              cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia
-              recusandae vero vel quam!</p>
-          </div>
+          </ul>
         </div>
       </div>
     </div>
-    <!-- /.row -->
   </div>
-  <hr>
   <!-- /.container -->
-  <div class="container">
-    <div class="card shadow-lg  border-0 ">
-      <form id="contact-form" method="post" action="contact.php" role="form">
-
-        <div class="messages"></div>
-  
-        <div class="controls">
-  
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_name">Firstname *</label>
-                <input id="form_name" type="text" name="name" class="form-control"
-                  placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_lastname">Lastname *</label>
-                <input id="form_lastname" type="text" name="surname" class="form-control"
-                  placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_email">Email *</label>
-                <input id="form_email" type="email" name="email" class="form-control"
-                  placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_phone">Phone *</label>
-                <input id="form_phone" type="tel" name="phone" class="form-control"
-                  placeholder="Please enter your phone" data-error="Valid phone number is required.">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <label for="form_need">Please specify your need *</label>
-                <select id="form_need" name="need" class="form-control" required="required"
-                  data-error="Please specify your need.">
-                  <option value=""></option>
-                  <option value="Request quotation">Request quotation</option>
-                  <option value="Request order status">Request order status</option>
-                  <option value="Request copy of an invoice">Request copy of an invoice</option>
-                  <option value="Other">Other</option>
-                </select>
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form-group">
-                <label for="form_subject">Subject *</label>
-                <input id="form_subject" type="text" name="subject" class="form-control"
-                  placeholder="Please enter your Subject" data-error="Valid subject is required.">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            
-            <div class="col-md-12">
-              <div class="form-group">
-                <label for="form_message">Message *</label>
-                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4"
-                  required="required" data-error="Please, leave us a message."></textarea>
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <input type="submit" class="btn btn-info btn-send" value="Send message">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <p class="text-muted">
-                <strong>*</strong> These fields are required.
-            </div>
-          </div>
+  <section id="contact">
+    <div class="container">
+      <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h5 class="border-bottom shadow-sm bg-primary text-white flex p-4 rounded pb-2 mb-0 text-center text-uppercase">
+          contact atern international</h5>
+        <div class="section-header  pt-4">
+          <p>Got a question? we'd love to hear from you. Send us a message and we'll respond as
+            soon
+            as possible.</p>
         </div>
-  
-      </form>
+        <form id="contact-form" method="post" action="contact.php" role="form">
+
+          <div class="messages"></div>
+
+          <div class="controls">
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_name">Firstname *</label>
+                  <input id="form_name" type="text" name="name" class="form-control shadow-sm"
+                    placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_lastname">Lastname *</label>
+                  <input id="form_lastname" type="text" name="surname" class="form-control shadow-sm"
+                    placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_email">Email *</label>
+                  <input id="form_email" type="email" name="email" class="form-control shadow-sm"
+                    placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_phone">Phone *</label>
+                  <input id="form_phone" type="tel" name="phone" class="form-control shadow-sm"
+                    placeholder="Please enter your phone" data-error="Valid phone number is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_need">Please specify your need *</label>
+                  <select id="form_need" name="need" class="form-control shadow-sm" required="required"
+                    data-error="Please specify your need.">
+                    <option value=""></option>
+                    <option value="Request quotation">Request quotation</option>
+                    <option value="Request order status">Request order status</option>
+                    <option value="Request copy of an invoice">Request copy of an invoice</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="form_subject">Subject *</label>
+                  <input id="form_subject" type="text" name="subject" class="form-control shadow-sm"
+                    placeholder="Please enter your Subject" data-error="Valid subject is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="form_message">Message *</label>
+                  <textarea id="form_message" name="message" class="form-control shadow-sm"
+                    placeholder="Message for me *" rows="4" required="required"
+                    data-error="Please, leave us a message."></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <input type="submit" class="btn btn-lg btn-primary shadow-sm" value="Send message">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p class="text-muted">
+                  <strong>*</strong> These fields are required.
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
     </div>
-  </div>
+
+  </section>
   <hr>
   <!-- Footer -->
   <footer class="footer text-center">
