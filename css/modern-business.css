@@ -107,8 +107,8 @@ body {
   padding: 0 0 30px 0;
 }
 
-.section-header h3 {
-  font-size: 36px;
+.section-header h4 {
+  font-size: 30px;
   color: #283d50;
   text-align: center;
   font-weight: 500;
@@ -119,9 +119,9 @@ body {
   text-align: center;
   margin: auto;
   font-size: 15px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   color: #556877;
-  width: 50%;
+  width: 90%;
 }
 
 #about .about-container .icon-box{
@@ -270,6 +270,7 @@ body {
   }
 }
 
+
 @media (max-width: 991.98px) {
   .navbar-collapse {
     text-align: center;
@@ -282,9 +283,94 @@ body {
   header{
     margin-top: -56px;
   }
+  
+  #contact-form{
+    padding-bottom: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .section-header{
+    padding-top: 1rem;
+  }
 }
 
 section{
   padding-top: 3.5rem;
   padding-bottom: 4rem;
 }
+
+
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+.scrolling-wrapper .card {
+  display: inline-block;
+}
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.scrolling-wrapper-flexbox  {
+  flex: 0 0 auto;
+  margin-right: 3px;
+}
+.card{
+  background: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.award{
+  width: 150px;
+  height: 150px;
+  margin-right: 1rem;
+}
+.scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
+
+
