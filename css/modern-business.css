@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
   padding-top: 56px;
-  font-family: 'Roboto';
+  font-family: 'Poppins', sans-serif;
 }
 
 .portfolio-item {
@@ -14,6 +14,15 @@ body {
    font-size: smaller;
 }
 
+.navbar-brand{
+  color: #38d39f !important;
+  font-weight: bolder;
+}
+
+
+#whyatern{
+  background-color: #38d39f;
+}
 
 .footer {
   padding-top: 5rem;
@@ -40,11 +49,12 @@ body {
 .img-fluid{
   border-radius: 9px;
 }
+
 .bg-pr
 {
-  background-image: url('../image/atern-factort.jpg') ;
-  background-position: center;
+  background: url(../image/atern-factort.jpg) center center fixed;
   background-size: cover;
+  text-align: center;
   opacity: 30;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
 }
@@ -64,7 +74,7 @@ body {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #2d71a1;
+  background: #38d39f;
   color: #fff;
   width: 50px;
   height: 50px;
@@ -89,6 +99,9 @@ body {
   animation: jump .5s linear alternate infinite;
 }
 
+.back-to-top:hover{
+  animation: none;
+} 
 .back-to-top i {
   color: #fff;
   font-size: 24px;
@@ -227,8 +240,15 @@ body {
 }
 
 .ico{
-  color: #007bff;
+  color: #38d39f;
   padding: 0.5rem;
+  font-weight: bolder;
+  font-size: 56px;
+}
+
+.heading{
+  color: #38d39f;
+  font-weight: bolder;
 }
 
 #about .about-container .icon-box .icon i{
